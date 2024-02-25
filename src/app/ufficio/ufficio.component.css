@@ -1,0 +1,105 @@
+/* Stili per il body per garantire che l'intera pagina sia occupata */
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+.titolo{
+    color: #154262;
+    font-weight: 800;
+    font-style: oblique;
+    font-size: 40px;
+    margin-top: 20px;
+  }
+
+.intestazione{
+    font-weight: 600;
+    font-style: oblique;
+    font-size: 20px;
+    color: #235274;
+    
+}
+  body {
+    background-image: url("https://img.freepik.com/free-vector/coworkers-cartoon-characters-effective-collaboration-coworkers-cooperation-teamwork-colleagues-discussing-solution-successful-interaction_335657-2309.jpg?t=st=1708867974~exp=1708871574~hmac=a6d60ea9eca2edd4ee3295897ff04d39e12d3f886fafbf13a3100f2eb2c8773d&w=1480");
+    background-size: cover; /* Per adattare l'immagine alla dimensione della finestra del browser */
+    background-repeat: no-repeat; /* Per evitare la ripetizione dell'immagine */
+    background-attachment: fixed; /* Per fissare l'immagine di sfondo mentre si scorre la pagina */
+  }
+  
+  /* Stili per il contenitore della tabella per utilizzare Flexbox */
+  .table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Distribuisce uniformemente le colonne */
+    align-items: center; /* Centra verticalmente */
+    height: 100%; /* Occupa l'intera altezza della viewport */
+    margin-top: 100px;
+  }
+  
+  /* Stili per ciascuna cella della tabella per impostare larghezza e spaziatura */
+  .tabellone-cell {
+    width: 30%; /* Larghezza della cella */
+    padding: 20px; /* Spaziatura interna */
+    border: 1px solid black;
+  }
+
+  .ticket-cell {
+    width: 30%; /* Larghezza della cella */
+    padding: 20px; /* Spaziatura interna */
+    display: block;
+  }
+
+  .gestione-coda-cell {
+    width: 30%; /* Larghezza della cella */
+    padding: 20px; /* Spaziatura interna */
+    display: block;
+  }
+
+
+
+  /* Stili per rendere i bottoni pieni larghi */
+  .mat-raised-button {
+    width: 100%;
+  }
+  
+  /* Stili per la classe .ultimo-ticket per centrare il testo */
+  .ultimo-ticket {
+    text-align: center;
+  }
+  
+  button {
+    width: 200px; /* Larghezza desiderata */
+    height: 60px; /* Altezza desiderata */
+    font-size: 18px; /* Dimensione del testo */
+    font-weight: bold; /* Grassetto */
+    text-transform: uppercase; /* Maiuscolo */
+    border-radius: 10px; /* Bordo arrotondato */
+    background-color: #76a7cf; /* Colore di sfondo */
+    color: white; /* Colore del testo */
+    border: none; /* Nessun bordo */
+    cursor: pointer; /* Cambio del cursore al passaggio del mouse */
+    transition: background-color 0.3s ease; /* Transizione fluida del colore di sfondo */
+  }
+  .mat-raised-button:hover {
+    background-color: #457aa0; /* Sfondo più scuro */
+  }
+
+  .tabellone-div {
+    font-weight: 500;
+    font-style: oblique;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;   
+    padding-bottom: 10px;
+    margin: 2px solid black;
+}
+/* Stili per i numeri nel tabellone */
+.numeri-tabellone {
+    text-align: center ; /* Centratura del testo */
+    padding: 10px ; /* Spaziatura interna */
+    border: 2px solid #000 ; /* Bordo di 2px */
+    border-radius: 40px ;
+    background-color: #93b6e9 ; /* Colore di sfondo bianco */
+    margin: 5px ; /* Margine esterno */
+  }
+
+  
